@@ -1,0 +1,47 @@
+payload:
+# Apple
+### Maps
+  - PROCESS-NAME,%E5%9C%B0%E5%9B%BE*
+### Settings
+  - PROCESS-NAME,com.apple.geod*
+  - PROCESS-NAME,com.apple.Maps
+  - PROCESS-NAME,geod*
+  - PROCESS-NAME,locationd*
+  - PROCESS-NAME,Maps*
+## Apple Non-China CDN
+### Trailer
+  - DOMAIN-SUFFIX,hls.itunes.apple.com
+### Movie Stream
+  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+### iTunes Music Stream
+  - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN,cdn.apple-cloudkit.com
+### Developer
+  - DOMAIN,devimages-cdn.apple.com
+  - DOMAIN,devstreaming-cdn.apple.com
+  - DOMAIN,js-cdn.music.apple.com
+  - DOMAIN,docs-assets.developer.apple.com
+### Other
+  - DOMAIN-SUFFIX,apple-dns.net
+### OCSP
+  - DOMAIN-SUFFIX,ocsp.apple.com
+  - PROCESS-NAME,com.apple.trustd*
+### locationd
+  - DOMAIN,gs-loc.apple.com
+  - DOMAIN-SUFFIX,ls.apple.com.akadns.net
+  - DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
+## iRingo
+### Siri与搜索
+  - PROCESS-NAME,LookupViewService
+  - PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+  - DOMAIN,lookup-api.apple.com
+  - DOMAIN,lookup-api.apple.com.edgekey.net
+  - DOMAIN,e16991.b.akamaiedge.net
+### iCloud 专用代理
+  - DOMAIN,mask-api.icloud.com
+  - DOMAIN,mask-api.fe.apple-dns.net
+  - DOMAIN,mask.icloud.com
+  - DOMAIN,mask.apple-dns.net
+  - DOMAIN,mask-h2.icloud.com
+  - DOMAIN,mask-t.apple-dns.net
