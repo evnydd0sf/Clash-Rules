@@ -1,2 +1,4 @@
 payload:
-  - "abematv.akamaized.net"
+  - "*.linkedin.com"
+  - "*.licdn.com"
+  - "*.licdn.cn"
