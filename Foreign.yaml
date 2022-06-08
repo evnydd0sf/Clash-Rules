@@ -1,5 +1,5 @@
 payload:
   - "*.linkedin.com"
-  # - "linkedin.cn"
+  - "*.linkedin.cn"
   - "*.licdn.com"
   - "*.licdn.cn"
