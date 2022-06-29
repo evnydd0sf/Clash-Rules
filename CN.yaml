@@ -1,12 +1,11 @@
 payload:
   # 图床
   - "+.imgtu.com"
-  # 山西工程科技职业大学
-  - "+.bcsxu.cn"
   # SharePoint Online and OneDrive for Business
   - "+.gr.global.aa-rt.sharepoint.com"
   - "+.svc.ms"
   - "admin.sharepoint.com"
+  - "evnydd0sf-my.sharepoint.com"
   - "files.sharepoint.com"
   - "myfiles.sharepoint.com"
   - "sharepointonline.com"
@@ -32,3 +31,7 @@ payload:
   - "2620:1ec:8f8::/46"
   - "2620:1ec:908::/46"
   - "2a01:111:f402::/48"
+  # Zlibrary
+  - "zh.zlib.life"
+  - "zh.art1lib.com"
+  - "zh.booksc.eu"
